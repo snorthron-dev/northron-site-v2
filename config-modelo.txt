@@ -1,0 +1,14 @@
+# NORTHRON SECURITY - Configuracao de Ambiente
+# Renomeie este arquivo para ponto-env antes de rodar o projeto
+
+DATABASE_URL=mysql://root:suasenha@localhost:3306/northron_security
+JWT_SECRET=sua-chave-secreta-jwt-muito-longa-e-aleatoria-aqui
+AWS_ACCESS_KEY_ID=sua-access-key-id
+AWS_SECRET_ACCESS_KEY=sua-secret-access-key
+AWS_REGION=us-east-1
+AWS_S3_BUCKET=northron-security-uploads
+NODE_ENV=development
+PORT=3000
+
+# Uploads (por padrão salva localmente em ./uploads e serve em /uploads)
+# Se você estiver em um servidor, garanta que a pasta ./uploads tenha permissão de escrita.
