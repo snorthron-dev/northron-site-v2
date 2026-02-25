@@ -1,0 +1,9 @@
+diff --git a/node_modules/wouter/use-location.js b/node_modules/wouter/use-location.js
+index 1111111..2222222 100644
+--- a/node_modules/wouter/use-location.js
++++ b/node_modules/wouter/use-location.js
+@@
+ export const useLocation = () => {
+-  return [location.pathname, navigate];
++  return [location.pathname || "/", navigate];
+};
